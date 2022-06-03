@@ -24,6 +24,7 @@ export default function Basket(props) {
             </div>
 
             <div className="col-2 text-right">
+              {/* tofixed(2) => make the price in two decimal */}
               {item.qty} x ${item.price.toFixed(2)}
             </div>
           </div>
